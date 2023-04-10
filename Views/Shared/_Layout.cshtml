@@ -56,7 +56,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>UpConstruction Bootstrap Template - Index</title>
+    <title>@ViewData["Title"]</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -104,12 +104,12 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li class="dropdown">
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+@*                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>*@
+                    <li><a asp-controller="Home" asp-action="Projects">Projects</a></li>
+                    <li><a asp-controller="Home" asp-action="Login">Login</a></li>
+                    @*<li class="dropdown">
                         <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="#">Dropdown 1</a></li>
@@ -127,8 +127,7 @@
                             <li><a href="#">Dropdown 3</a></li>
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    </li>*@
                 </ul>
             </nav><!-- .navbar -->
 

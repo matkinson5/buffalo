@@ -18,6 +18,16 @@ namespace buffalo.Controllers
             return View();
         }
 
+        public IActionResult Projects()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
