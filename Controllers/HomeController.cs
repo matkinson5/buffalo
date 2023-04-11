@@ -18,6 +18,31 @@ namespace buffalo.Controllers
             return View();
         }
 
+        public IActionResult Burials()
+        {
+            return View();
+        }
+
+        public IActionResult Burial_Details()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Supervised()
+        {
+            return View();
+        }
+
+        public IActionResult Unsupervised()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
